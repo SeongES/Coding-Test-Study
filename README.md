@@ -1,4 +1,4 @@
-## Coding Test Study
+## 코테 스터디
 
 #### 참고자료
 - [프로그래머스](https://programmers.co.kr/learn/challenges?tab=algorithm_practice_kit)
