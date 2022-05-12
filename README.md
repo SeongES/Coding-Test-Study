@@ -7,4 +7,4 @@
 - [코드업](https://codeup.kr/problemsetsol.php?psid=23)
 
 #### 스터디 일정
-[5/19]  **프로그래머스** Hash /Stack&Queue / Heap (LEVEL 1,2)
+[5/19]  **프로그래머스** Hash / Stack&Queue / Heap (LEVEL 1,2)
