@@ -1,4 +1,5 @@
 ## Runtime Error
+# 오답
 
 from collections import deque
 
@@ -16,7 +17,7 @@ def solution(priorities, location):
             break
     answer = list(idx).index(tar)             
 
-    return print(answer)
+    return answer
 
-#solution([2, 1, 3, 2], 2)
-#solution([1, 1, 9, 1, 1, 1], 0)
+if __name__ == '__main__':
+    print(solution([2, 1, 3, 2], 2)) #solution([1, 1, 9, 1, 1, 1], 0)
