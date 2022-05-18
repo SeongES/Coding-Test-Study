@@ -1,5 +1,3 @@
-
-
 def solution(progresses, speeds):
     answer = []
     day = 0
@@ -18,6 +16,7 @@ def solution(progresses, speeds):
             day += 1
     answer.append(count)
             
-    return print(answer)
+    return answer
 
-solution([93, 30, 55], [1, 30, 5])
+if __name__ == '__main__':
+    solution([93, 30, 55], [1, 30, 5])
