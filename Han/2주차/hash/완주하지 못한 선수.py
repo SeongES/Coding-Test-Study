@@ -1,5 +1,3 @@
-# 완주하지 못한 선수
-## hash value 이용
 def solution(participant, completion):
     answer = ''
     dict = {}
@@ -15,3 +13,6 @@ def solution(participant, completion):
     answer = dict[sum]
     
     return dict[sum]
+
+if __name__ == '__main__':
+    print(solution(["leo", "kiki", "eden"], ["eden", "kiki"]))
