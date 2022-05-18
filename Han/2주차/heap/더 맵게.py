@@ -15,5 +15,5 @@ def solution(scoville, K):
     
     return answer
 
-if __name__ == '__main__()'
-    solution([1, 2, 3, 9, 10, 12], 7)
+if __name__ == '__main__':
+    print(solution([1, 2, 3, 9, 10, 12], 7))
