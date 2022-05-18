@@ -13,6 +13,7 @@ def solution(scoville, K):
         except IndexError:
             return -1  
     
-    return print(answer)
+    return answer
 
-solution([1, 2, 3, 9, 10, 12], 7)
+if __name__ == '__main__()'
+    solution([1, 2, 3, 9, 10, 12], 7)
