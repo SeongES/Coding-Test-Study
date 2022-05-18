@@ -19,4 +19,4 @@ def solution(progresses, speeds):
     return answer
 
 if __name__ == '__main__':
-    solution([93, 30, 55], [1, 30, 5])
+    print(solution([93, 30, 55], [1, 30, 5]))
