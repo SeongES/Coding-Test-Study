@@ -1,5 +1,3 @@
-##전화번호 목록
-#hash
 def solution(phone_book):
     answer = True
     dic = {}
@@ -15,3 +13,6 @@ def solution(phone_book):
                 answer = False
 
     return answer
+
+if __name__ == '__main__':
+    print(solution(["119", "97674223", "1195524421"])
