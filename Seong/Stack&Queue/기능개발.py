@@ -1,3 +1,5 @@
+# Level 2
+
 def solution(progresses, speeds):
     answer = []
     
