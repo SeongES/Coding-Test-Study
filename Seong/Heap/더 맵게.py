@@ -15,7 +15,4 @@ def solution(scoville, K):
         mep = a+b*2
         heapq.heappush(scoville,mep)
         answer += 1
-
-
-
     return answer
