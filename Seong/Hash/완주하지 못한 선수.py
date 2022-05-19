@@ -1,3 +1,5 @@
+# Level 1
+
 def solution(participant, completion):
     answer = ''
     participant.sort()
