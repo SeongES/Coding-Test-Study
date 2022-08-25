@@ -1,4 +1,4 @@
-# 크루스칼 알고리즘 활용
+# 크루스칼 알고리즘(최소 비용 신장 트리, MST) 활용
 def solution(n, costs):
 
     def find_parent(parent, n):
