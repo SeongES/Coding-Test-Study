@@ -1,3 +1,4 @@
+# 크루스칼 알고리즘 활용
 def solution(n, costs):
 
     def find_parent(parent, n):
