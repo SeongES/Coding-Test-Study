@@ -20,7 +20,7 @@ def solution(n, costs):
 
     for node_a, node_b, cost in costs:
         if find_parent(parent, node_a) != find_parent(parent, node_b):
-            union_parent(parent, node_a, node_b)
+            union_parent(parent, node_a, node_b) # 사이클이 생기지 않게 하기 위해 부모가 다른 경우에 union_parent로 두 노드 연결
             answer += cost
 
     return answer
